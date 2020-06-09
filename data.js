@@ -1,0 +1,3 @@
+const text1 = 'Ладно, так и быть, вот тебе мой конфиг божественного ПК. Процессор AMD Ryzen 9 3900x BOX - цена: 38 599Р. Материнская плата ASUS TUF GAMING X570-PLUS - цена: 19 499Р. Видеокарта ASUS AMD Radeon RX 5700 XT STRIX OC - цена: 37 699Р. Оперативная память Kingston HyperX Predator 16ГБ - цена 6 899Р. Корпус CoolerMaster MasterCase SL600M - цена: 15 799Р. Блок питания Be Quiet! DARK POWER PRO 11 650W - цена: 13 999Р. Система охлаждения CoolerMaster MasterLiquid ML360R RGB - цена: 9 999Р. SSD M.2 накопитель WD Black SN750 500ГБ - цена: 8 050Р. Итого: 160 342Р. ';
+
+module.exports = text1;

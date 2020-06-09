@@ -8,9 +8,9 @@ bot.start((ctx) => ctx.reply('Приветствую!'));
 bot.hears(/конфиг (.*)/, ctx => {
     const text = ctx.match[1];
     if (text === 'пожалуйста') {
-        ctx.reply(text1, Extra.markup);
+        ctx.replyWithHTML(text1);
     } else  {
-        ctx.reply('Нет здесь конфига. Скажи пожалуйста!', Extra.markup);
+        ctx.replyWithHTML('<b>Нет здесь конфига. Скажи пожалуйста!</b>');
     }
 });
 
